@@ -1,0 +1,30 @@
+{
+  "name": "generator-service-workers",
+  "version": "0.0.0",
+  "description": "Yeoman generator",
+  "license": "MIT",
+  "main": "app/index.js",
+  "repository": "jrcryer/generator-service-workers",
+  "author": {
+    "name": "James Cryer",
+    "email": "chat@jamescryer.com",
+    "url": "https://github.com/jrcryer"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "files": [
+    "app"
+  ],
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "dependencies": {
+    "yeoman-generator": "^0.19.0",
+    "chalk": "^1.0.0",
+    "yosay": "^1.0.2"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  }
+}
